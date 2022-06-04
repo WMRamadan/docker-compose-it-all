@@ -1,0 +1,14 @@
+version: "2.3"
+services:
+  emby:
+    image: emby/embyserver
+    container_name: embyserver
+    network_mode: host # Enable DLNA and Wake-on-Lan
+    environment:
+      - UID=1000 # The UID to run emby as (default: 2)
+      - GID=100 # The GID to run emby as (default 2)
+      - GIDLIST=100 # A comma-separated list of additional GIDs to run emby as (default: 2)
+    volumes:
+      - ./config:/config # Configuration directory
+      - ./media:/mnt/share1 # Media directory
+    restart: unless-stopped
