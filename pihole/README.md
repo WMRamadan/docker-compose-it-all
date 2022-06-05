@@ -43,7 +43,7 @@ docker-compose up -d
 
 Login to your pihole using `http://localhost:8090` with the password `1234` and update pihole upstream dns in `Settings -> DNS` and save the changes
 
-![Pihole DNS](/images/pihole_dns.png)
+![Pihole DNS](images/pihole_dns.png)
 
 ## Step 5
 
