@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  docker-mongodb:
+   container_name: docker-mongodb
+   image: mongo
+   ports:
+     - 27017:27017
+   volumes:
+     - mongodb:/data/db
+
+volumes:
+  mongodb:
