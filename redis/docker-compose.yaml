@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  docker-redis:
+    container_name: docker-redis
+    image: redis
+    ports:
+      - 6379:6379
+    restart: always
