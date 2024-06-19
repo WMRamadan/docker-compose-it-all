@@ -13,11 +13,11 @@ services:
       - KEYBOARD=en-us-qwerty #optional
       - TITLE=Webtop #optional
     volumes:
-      - /path/to/data:/config
+      - ${PATH_TO_DATA}:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
-      - 3000:3000
-    devices:
-      - /dev/dri:/dev/dri #optional
+      - ${SERVICE_PORT}:3000
+    # devices:
+    #   - /dev/dri:/dev/dri #optional
     shm_size: "1gb" #optional
     restart: unless-stopped
