@@ -1,7 +1,7 @@
 version: "2.3"
 services:
   emby:
-    image: emby/embyserver:latest
+    image: emby/embyserver_arm64v8:latest
     container_name: embyserver
     #network_mode: host # Enable DLNA and Wake-on-Lan Linux ONLY
     environment:
