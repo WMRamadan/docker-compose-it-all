@@ -19,17 +19,17 @@ To stop a deployment run the following command:
 
 | Name | Architecture | type |
 |----------|----------|----------|
-| emby-server | amd64 | Single |
-| emby-server-arm64 | arm64 | Single |
-| fastapi | amd64, arm64 | Single |
-| mongodb | amd64, arm64 | Single |
-| pihole | amd64, arm64 | Single |
-| portainer | amd64, arm64 | Single |
-| postgresql | amd64, arm64 | Single |
-| redis | amd64, arm64 | Single |
+| emby-server | amd64 | Standalone |
+| emby-server-arm64 | arm64 | Standalone |
+| fastapi | amd64, arm64 | Standalone |
+| mongodb | amd64, arm64 | Standalone |
+| pihole | amd64, arm64 | Standalone |
+| portainer | amd64, arm64 | Standalone |
+| postgresql | amd64, arm64 | Standalone |
+| redis | amd64, arm64 | Standalone |
 | sonarqube | amd64, arm64 | Stack |
-| webtop | amd64, arm64 | Single |
-| yacht | amd64, arm64 | Single |
+| webtop | amd64, arm64 | Standalone |
+| yacht | amd64, arm64 | Standalone |
 
 ## How to contribute
 
