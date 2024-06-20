@@ -1,4 +1,5 @@
 # Docker Compose It All
+---
 
 A repository of docker-compose yaml files for all kinds of deployments based on ready made images.
 
@@ -29,3 +30,7 @@ To stop a deployment run the following command:
 | redis | amd64, arm64 |
 | webtop | amd64, arm64 |
 | yacht | amd64, arm64 |
+
+## How to contribute
+
+Create a pull request if you would like to add to the list of applications. Please follow the included structure.
