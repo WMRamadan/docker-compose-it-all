@@ -6,5 +6,5 @@ services:
     container_name: docker-redis
     image: redis
     ports:
-      - 6379:6379
+      - ${SERVICE_PORT}:6379
     restart: always

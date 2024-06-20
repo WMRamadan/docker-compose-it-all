@@ -6,7 +6,7 @@ services:
    container_name: docker-fastapi
    image: ghcr.io/wmramadan/fastapi-boilerplate:latest
    ports:
-     - 80:80
+     - ${SERVICE_PORT}:80
    volumes:
      - fastapi:/app/api/data
 

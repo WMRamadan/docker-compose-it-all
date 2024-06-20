@@ -6,7 +6,7 @@ services:
    container_name: docker-mongodb
    image: mongo
    ports:
-     - 27017:27017
+     - ${SERVICE_PORT}:27017
    volumes:
      - mongodb:/data/db
 

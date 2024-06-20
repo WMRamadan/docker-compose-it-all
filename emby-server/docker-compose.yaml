@@ -1,7 +1,7 @@
 version: "2.3"
 services:
   emby:
-    image: emby/embyserver
+    image: emby/embyserver:latest
     container_name: embyserver
     network_mode: host # Enable DLNA and Wake-on-Lan
     environment:
@@ -11,4 +11,6 @@ services:
     volumes:
       - ./config:/config # Configuration directory
       - ./media:/mnt/share1 # Media directory
+    ports:
+      - ${SERVICE_PORT}:8096 # HTTP port
     restart: unless-stopped

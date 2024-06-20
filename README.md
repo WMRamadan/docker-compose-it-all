@@ -7,5 +7,11 @@ A repository of docker-compose yaml files for all kinds of deployments based on 
 To launch a deployment run the following command:
 
 ```bash
-./launch <directory_name>
+./launch.sh <directory_name>
+```
+
+To stop a deployment run the following command:
+
+```bash
+./stop.sh <directory_name>
 ```
