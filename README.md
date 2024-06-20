@@ -19,7 +19,7 @@ To stop a deployment run the following command:
 
 | Name | Architecture |
 |----------|----------|
-| emby-server | amd64, arm64 |
+| emby-server | amd64 |
 | fastapi | amd64, arm64 |
 | mongodb | amd64, arm64 |
 | pihole | amd64, arm64 |
