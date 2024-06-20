@@ -17,7 +17,7 @@ To stop a deployment run the following command:
 ```
 ## Applications
 
-| Name | Architecture | type |
+| Name | Architecture | Type |
 |----------|----------|----------|
 | emby-server | amd64 | Standalone |
 | emby-server-arm64 | arm64 | Standalone |
