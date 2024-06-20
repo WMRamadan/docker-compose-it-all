@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+    restart: always
+    volumes:
+      - "./postgre/data:/var/lib/postgresql/data"
+    ports:
+      - "5433:5432"
+  sonar:
+    image: sonarqube
+    depends_on:
+      - db
+    environment:
+      SONAR_JDBC_URL: jdbc:postgresql://db:5432/postgres
+      SONAR_JDBC_USERNAME: admin
+      SONAR_JDBC_PASSWORD: admin
+    restart: always
+    volumes:
+      - type: volume
+        source: "sonarqube_data"
+        target: "/opt/sonarqube/data"
+      - type: volume
+        source: "sonarqube_extensions"
+        target: "/opt/sonarqube/extensions"
+      - type: volume
+        source: "sonarqube_logs"
+        target: "/opt/sonarqube/logs"
+    links:
+      - db:db
+    ports:
+      - ${SERVICE_PORT}:9000
+
+volumes: 
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_logs:
