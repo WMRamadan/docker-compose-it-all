@@ -19,6 +19,7 @@ To stop a deployment run the following command:
 
 | Name | Architecture | Type |
 |----------|----------|----------|
+| changedetection | amd64, arm64 | Standalone |
 | emby-server | amd64 | Standalone |
 | emby-server-arm64 | arm64 | Standalone |
 | fastapi | amd64, arm64 | Standalone |
