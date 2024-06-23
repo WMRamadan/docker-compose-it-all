@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+  joomla:
+    image: joomla
+    restart: always
+    links:
+      - joomladb:mysql
+    ports:
+      - ${SERVICE_PORT}:80
+    environment:
+      JOOMLA_DB_HOST: joomladb
+      JOOMLA_DB_PASSWORD: joomlapass
+
+  joomladb:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: joomlapass
