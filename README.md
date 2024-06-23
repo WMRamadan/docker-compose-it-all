@@ -32,7 +32,7 @@ To stop a deployment run the following command:
 | postgresql | amd64, arm64 | Standalone |
 | redis | amd64, arm64 | Standalone |
 | sonarqube | amd64, arm64 | Stack |
-| traefik | amd64, arm64 | Stack |
+| traefik | amd64, arm64 | Standalone |
 | webtop | amd64, arm64 | Standalone |
 | yacht | amd64, arm64 | Standalone |
 
