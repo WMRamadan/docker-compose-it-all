@@ -26,6 +26,7 @@ To stop a deployment run the following command:
 | fastapi | amd64, arm64 | Standalone |
 | mongodb | amd64, arm64 | Standalone |
 | nextcloud | amd64, arm64 | Standalone |
+| nginx | amd64, arm64 | Standalone |
 | pihole | amd64, arm64 | Standalone |
 | portainer | amd64, arm64 | Standalone |
 | postgresql | amd64, arm64 | Standalone |
