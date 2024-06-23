@@ -21,6 +21,7 @@ To stop a deployment run the following command:
 |----------|----------|----------|
 | ardour | amd64, arm64 | Standalone |
 | changedetection | amd64, arm64 | Standalone |
+| drupal | amd64, arm64 | Stack |
 | emby-server | amd64 | Standalone |
 | emby-server-arm64 | arm64 | Standalone |
 | fastapi | amd64, arm64 | Standalone |
