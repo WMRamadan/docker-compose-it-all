@@ -28,6 +28,7 @@ To stop a deployment run the following command:
 | mongodb | amd64, arm64 | Standalone |
 | nextcloud | amd64, arm64 | Standalone |
 | nginx | amd64, arm64 | Standalone |
+| odoo | amd64, arm64 | Stack |
 | pihole | amd64, arm64 | Standalone |
 | portainer | amd64, arm64 | Standalone |
 | postgresql | amd64, arm64 | Standalone |
