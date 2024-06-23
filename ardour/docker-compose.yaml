@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  ardour:
+    image: lscr.io/linuxserver/ardour:latest
+    container_name: ardour
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - SUBFOLDER=/ #optional
+    volumes:
+      - ./config:/config
+    ports:
+      - ${SERVICE_PORT}:3000 #optional
+    restart: unless-stopped
