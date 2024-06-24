@@ -36,6 +36,7 @@ To stop a deployment run the following command:
 | redis | amd64, arm64 | Standalone |
 | sonarqube | amd64, arm64 | Stack |
 | traefik | amd64, arm64 | Standalone |
+| uptime-kuma | amd64, arm64 | Standalone |
 | webtop | amd64, arm64 | Standalone |
 | wordpress | amd64, arm64 | Stack |
 | yacht | amd64, arm64 | Standalone |
