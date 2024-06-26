@@ -24,29 +24,30 @@ To get an explaination of each app, run the following command:
 
 ## Applications
 
-| Name | Architecture | Type |
-|----------|----------|----------|
-| ardour | amd64, arm64 | Standalone |
-| changedetection | amd64, arm64 | Standalone |
-| drupal | amd64, arm64 | Stack |
-| emby-server | amd64 | Standalone |
-| emby-server-arm64 | arm64 | Standalone |
-| fastapi | amd64, arm64 | Standalone |
-| joomla | amd64, arm64 | Stack |
-| mongodb | amd64, arm64 | Standalone |
-| nextcloud | amd64, arm64 | Standalone |
-| nginx | amd64, arm64 | Standalone |
-| odoo | amd64, arm64 | Stack |
-| pihole | amd64, arm64 | Standalone |
-| portainer | amd64, arm64 | Standalone |
-| postgresql | amd64, arm64 | Standalone |
-| redis | amd64, arm64 | Standalone |
-| sonarqube | amd64, arm64 | Stack |
-| traefik | amd64, arm64 | Standalone |
-| uptime-kuma | amd64, arm64 | Standalone |
-| webtop | amd64, arm64 | Standalone |
-| wordpress | amd64, arm64 | Stack |
-| yacht | amd64, arm64 | Standalone |
+| Name | Architecture | Type | GPU |
+|----------|----------|----------|----------|
+| ardour | amd64, arm64 | Standalone | None |
+| changedetection | amd64, arm64 | Standalone | None |
+| drupal | amd64, arm64 | Stack | None |
+| emby-server | amd64 | Standalone | None |
+| emby-server-arm64 | arm64 | Standalone | None |
+| fastapi | amd64, arm64 | Standalone | None |
+| fooocus | amd64, arm64 | Standalone | nVidia |
+| joomla | amd64, arm64 | Stack | None |
+| mongodb | amd64, arm64 | Standalone | None |
+| nextcloud | amd64, arm64 | Standalone | None |
+| nginx | amd64, arm64 | Standalone | None |
+| odoo | amd64, arm64 | Stack | None |
+| pihole | amd64, arm64 | Standalone | None |
+| portainer | amd64, arm64 | Standalone | None |
+| postgresql | amd64, arm64 | Standalone | None |
+| redis | amd64, arm64 | Standalone | None |
+| sonarqube | amd64, arm64 | Stack | None |
+| traefik | amd64, arm64 | Standalone | None |
+| uptime-kuma | amd64, arm64 | Standalone | None |
+| webtop | amd64, arm64 | Standalone | None |
+| wordpress | amd64, arm64 | Stack | None |
+| yacht | amd64, arm64 | Standalone | None |
 
 ## How to contribute
 
