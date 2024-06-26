@@ -15,6 +15,13 @@ To stop a deployment run the following command:
 ```bash
 ./stop.sh <directory_name>
 ```
+
+To get an explaination of each app, run the following command:
+
+```bash
+./explain.sh <directory_name>
+```
+
 ## Applications
 
 | Name | Architecture | Type |
