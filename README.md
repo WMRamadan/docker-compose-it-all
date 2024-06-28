@@ -34,6 +34,7 @@ To get an explaination of each app, run the following command:
 | fastapi | amd64, arm64 | Standalone | None |
 | fooocus | amd64, arm64 | Standalone | nVidia |
 | joomla | amd64, arm64 | Stack | None |
+| linkding | amd64, arm64 | Standalone | None |
 | mongodb | amd64, arm64 | Standalone | None |
 | nextcloud | amd64, arm64 | Standalone | None |
 | nginx | amd64, arm64 | Standalone | None |
