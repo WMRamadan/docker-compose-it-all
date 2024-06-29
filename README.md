@@ -4,7 +4,7 @@ A repository of docker-compose yaml files for all kinds of deployments based on 
 
 ## Requirements
 
-- Docker Engine 20.10 or above
+- Docker Engine 19.03.4 or above
 - Docker Compose v2 or above
 
 ## Setup
