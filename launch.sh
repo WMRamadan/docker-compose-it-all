@@ -59,7 +59,7 @@ ENV_FILE=".env"
 load_env_file "$ENV_FILE"
 
 # Run the docker-compose command
-docker-compose up -d
+docker compose up -d
 
 # Check if the necessary environment variables are set
 if [ -z "$SERVICE_PORT" ]; then

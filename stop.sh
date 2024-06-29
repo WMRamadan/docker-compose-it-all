@@ -25,4 +25,4 @@ if [ ! -f "docker-compose.yaml" ]; then
 fi
 
 # Stop docker-compose
-docker-compose down
+docker compose down
