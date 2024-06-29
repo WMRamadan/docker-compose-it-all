@@ -2,6 +2,11 @@
 
 A repository of docker-compose yaml files for all kinds of deployments based on ready made images.
 
+## Requirements
+
+- Docker Engine 20.10 or above
+- Docker Compose v2 or above
+
 ## Setup
 
 To launch a deployment run the following command:
