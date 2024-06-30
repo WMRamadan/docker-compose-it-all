@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    ports:
+      - ${SERVICE_PORT}:8096
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - ./media:/media
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]

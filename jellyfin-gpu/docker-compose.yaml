@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    ports:
+      - ${SERVICE_PORT}:8096
+    group_add:
+      - "122" # Change this to match your "render" host group id and remove this comment
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - ./media:/media
+    devices:
+      - /dev/dri/renderD128:/dev/dri/renderD128

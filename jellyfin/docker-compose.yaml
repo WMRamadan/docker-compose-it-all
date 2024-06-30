@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - type: bind
+        source: ./media
+        target: /media
+        read_only: true
+    ports:
+      - ${SERVICE_PORT}:8096
+    restart: 'unless-stopped'
+    # Optional - alternative address used for autodiscovery
+    # environment:
+    #   - JELLYFIN_PublishedServerUrl=http://example.com

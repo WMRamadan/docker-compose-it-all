@@ -38,6 +38,9 @@ To get an explaination of each app, run the following command:
 | emby-server-arm64 | arm64 | Standalone | None |
 | fastapi | amd64, arm64 | Standalone | None |
 | fooocus | amd64, arm64 | Standalone | nVidia |
+| jellyfin | amd64, arm64 | Standalone | None |
+| jellyfin-gpu | amd64, arm64 | Standalone | AMD, Intel |
+| jellyfin-nvidia | amd64, arm64 | Standalone | nVidia |
 | joomla | amd64, arm64 | Stack | None |
 | linkding | amd64, arm64 | Standalone | None |
 | mongodb | amd64, arm64 | Standalone | None |
