@@ -6,7 +6,7 @@ services:
     ports:
       - ${SERVICE_PORT}:8096
     group_add:
-      - "122" # Change this to match your "render" host group id and remove this comment
+      - "122" # Change this to match your "render" host group id
     volumes:
       - ./config:/config
       - ./cache:/cache
