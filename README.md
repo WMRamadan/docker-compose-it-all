@@ -33,6 +33,7 @@ To get an explaination of each app, run the following command:
 |----------|----------|----------|----------|
 | ardour | amd64, arm64 | Standalone | None |
 | changedetection | amd64, arm64 | Standalone | None |
+| dashy | amd64, arm64 | Standalone | None |
 | drupal | amd64, arm64 | Stack | None |
 | emby-server | amd64 | Standalone | None |
 | emby-server-arm64 | arm64 | Standalone | None |
