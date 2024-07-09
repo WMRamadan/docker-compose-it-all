@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    volumes:
+      - ./srv:/srv/jekyll
+      - ./vendor/bundle/:/usr/local/bundle
+    ports:
+      - ${SERVICE_PORT}:4000
+    command: jekyll serve --force_polling --drafts
+    restart: unless-stopped
